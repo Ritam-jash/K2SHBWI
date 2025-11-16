@@ -4,10 +4,10 @@ Thank you for your interest in contributing to K2SHBWI! We welcome contributions
 
 ## Quick Start
 
-1. **Read the guidelines:** See [`docs/05-contributing/`](docs/05-contributing/)
-2. **Set up environment:** Follow [`docs/05-contributing/02-development-setup.md`](docs/05-contributing/02-development-setup.md)
-3. **Make changes:** Follow [`docs/05-contributing/04-code-standards.md`](docs/05-contributing/04-code-standards.md)
-4. **Submit PR:** Follow [`docs/05-contributing/05-pull-request-process.md`](docs/05-contributing/05-pull-request-process.md)
+1. **Read the guidelines:** See [`docs/`](docs/)
+2. **Set up environment:** Follow [`docs/02-development-setup.md`](docs/02-development-setup.md)
+3. **Make changes:** Follow [`docs/04-code-standards.md`](docs/04-code-standards.md)
+4. **Submit PR:** Follow [`docs/05-contributing`](docs/05-contributing/)
 
 ## How to Contribute
 
