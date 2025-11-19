@@ -163,6 +163,12 @@ test_output_click.k2sh
 test_fixed.k2sh
 test_p3_batch/
 
+test_cli_decoded.png
+test_cli_encoded.k2sh
+test_cli_output.k2sh
+test_no_log.k2sh
+test_p3_decoded.png
+
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 5. PRIVATE INTERNAL DOCUMENTATION (Development work and internal analysis)
