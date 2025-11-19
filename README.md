@@ -32,7 +32,7 @@ K2SHBWI embeds **rich metadata and interactive hotspots** directly into image fi
 **Click below to see the complete `.k2shbwi` format** - rendered live in your browser!
 
 
-[![K2SHBWI ULTIMATE](https://img.shields.io/badge/🎨%20ULTIMATE-Historic%20First%20%7C%2087.3%25%20Compression%20%7C%20Zero%20Setup-FF6B00?style=for-the-badge)](https://ghproxy.com/https://raw.githubusercontent.com/Ritam-jash/K2SHBWI/main/demo/formats/k2shbwi/sample_format.k2shbwi)
+[![K2SHBWI ULTIMATE](https://img.shields.io/badge/🎨%20ULTIMATE-Historic%20First%20%7C%2087.3%25%20Compression%20%7C%20Zero%20Setup-FF6B00?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/Ritam-jash/K2SHBWI/blob/main/demo/formats/k2shbwi/sample_format.k2shbwi)
 
 This interactive package includes:
 - ✅ Performance metrics & specifications
@@ -41,9 +41,9 @@ This interactive package includes:
 - ✅ 100% offline capability
 
 **Other sample formats:**
-- [Interactive HTML](demo/formats/interactive/index.html)
-- [Sample Gallery](demo/formats/)
-- [Full Showcase](demo/showcase_hub.html)
+- [Interactive HTML](https://htmlpreview.github.io/?https://github.com/Ritam-jash/K2SHBWI/blob/main/demo/formats/interactive/index.html)
+- [Sample Gallery](https://github.com/Ritam-jash/K2SHBWI/tree/main/demo/formats)
+- [Full Showcase](https://htmlpreview.github.io/?https://github.com/Ritam-jash/K2SHBWI/blob/main/demo/showcase_hub.html)
 
 ---
 
