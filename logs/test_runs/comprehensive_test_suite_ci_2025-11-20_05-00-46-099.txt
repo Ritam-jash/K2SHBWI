@@ -1,0 +1,212 @@
+================================================================================
+K2SHBWI TEST LOG REPORT
+================================================================================
+
+Timestamp: 2025-11-20T05:00:46.099415+00:00
+Logger: comprehensive_test_suite_ci
+Type: test
+
+System Information:
+  Python: 3.12.1
+  Platform: Windows 11
+
+Summary:
+  Total Metrics: 18
+  Original Bytes: 0
+  Compressed Bytes: 0
+  Average Compression: 0.00%
+  Total Time: 31368.44ms
+  Errors: 1
+
+Detailed Metrics:
+--------------------------------------------------------------------------------
+
+[1] TEST
+    Timestamp: 2025-11-20T05:00:48.245829+00:00
+    Test: Create Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1045.99ms
+    Status: PASS
+
+[2] TEST
+    Timestamp: 2025-11-20T05:00:49.246844+00:00
+    Test: Create with Metadata
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1001.01ms
+    Status: PASS
+
+[3] TEST
+    Timestamp: 2025-11-20T05:00:50.242278+00:00
+    Test: Info Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 994.36ms
+    Status: PASS
+
+[4] TEST
+    Timestamp: 2025-11-20T05:00:51.177536+00:00
+    Test: Validate Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 935.26ms
+    Status: PASS
+
+[5] TEST
+    Timestamp: 2025-11-20T05:00:52.212425+00:00
+    Test: Decode Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1034.89ms
+    Status: PASS
+
+[6] TEST
+    Timestamp: 2025-11-20T05:00:53.275012+00:00
+    Test: Batch Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1062.59ms
+    Status: PASS
+
+[7] TEST
+    Timestamp: 2025-11-20T05:00:54.292811+00:00
+    Test: Encode Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1017.80ms
+    Status: PASS
+
+[8] TEST
+    Timestamp: 2025-11-20T05:00:55.333655+00:00
+    Test: Convert to HTML
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1040.84ms
+    Status: PASS
+
+[9] TEST
+    Timestamp: 2025-11-20T05:00:56.351929+00:00
+    Test: Convert to PDF
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1018.27ms
+    Status: FAIL
+    ERROR: PDF conversion failed: [ERROR] [Errno 2] No such file or directory: '/tmp/k2sh_temp_img.png'
+
+[10] TEST
+    Timestamp: 2025-11-20T05:01:01.206730+00:00
+    Test: All Conversion Formats
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 3383.72ms
+    Status: PASS
+
+[11] TEST
+    Timestamp: 2025-11-20T05:01:02.099734+00:00
+    Test: View Command Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 893.00ms
+    Status: PASS
+
+[12] TEST
+    Timestamp: 2025-11-20T05:01:09.290080+00:00
+    Test: All Commands Have Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 7190.35ms
+    Status: PASS
+
+[13] TEST
+    Timestamp: 2025-11-20T05:01:12.021086+00:00
+    Test: Create Multiple Files
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 2731.01ms
+    Status: PASS
+
+[14] TEST
+    Timestamp: 2025-11-20T05:01:16.621948+00:00
+    Test: Validate All Outputs
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 4600.86ms
+    Status: PASS
+
+[15] TEST
+    Timestamp: 2025-11-20T05:01:17.490889+00:00
+    Test: Verbose Output
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 868.94ms
+    Status: PASS
+
+[16] TEST
+    Timestamp: 2025-11-20T05:01:18.344385+00:00
+    Test: CLI Version Display
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 853.50ms
+    Status: PASS
+
+[17] TEST
+    Timestamp: 2025-11-20T05:01:19.174200+00:00
+    Test: Main Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 829.81ms
+    Status: PASS
+
+[18] TEST
+    Timestamp: 2025-11-20T05:01:20.040442+00:00
+    Test: Command Examples
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 866.24ms
+    Status: PASS
+
+================================================================================
+ERRORS:
+================================================================================
+  - Convert to PDF: PDF conversion failed: [ERROR] [Errno 2] No such file or directory: '/tmp/k2sh_temp_img.png'
+
+================================================================================
+END OF REPORT
+================================================================================

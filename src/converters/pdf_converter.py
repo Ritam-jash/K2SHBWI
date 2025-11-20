@@ -4,6 +4,7 @@ PDF Converter - Convert K2SHBWI files to PDF with hotspots
 
 import io
 import json
+import tempfile
 from pathlib import Path
 from typing import Dict
 from PIL import Image
@@ -107,16 +108,25 @@ class PDFConverter(BaseConverter):
         img_buffer = io.BytesIO()
         image.save(img_buffer, format='PNG')
         img_buffer.seek(0)
-        img_path = '/tmp/k2sh_temp_img.png'
-        with open(img_path, 'wb') as f:
-            f.write(img_buffer.getvalue())
+        
+        # Use tempfile for cross-platform support (Windows/Linux/Mac)
+        with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as tmp_file:
+            tmp_file.write(img_buffer.getvalue())
+            img_path = tmp_file.name
         
         # Add image to PDF
         try:
             rl_image = RLImage(img_path, width=5*inch, height=3.75*inch)
             elements.append(rl_image)
-        except:
+        except Exception as e:
+            # If image loading fails, continue without image
             pass
+        finally:
+            # Clean up temp file
+            try:
+                Path(img_path).unlink(missing_ok=True)
+            except Exception:
+                pass
         
         elements.append(Spacer(1, 0.2*inch))
         

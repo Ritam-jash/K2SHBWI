@@ -1,0 +1,242 @@
+{
+  "timestamp": "2025-11-20T04:57:11.208166+00:00",
+  "logger_name": "comprehensive_test_suite_ci",
+  "log_type": "test",
+  "system_info": {
+    "python_version": "3.12.1",
+    "platform": "Windows 11"
+  },
+  "metrics": [
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:14.104934+00:00",
+      "test_name": "Create Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 937.87
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:15.017835+00:00",
+      "test_name": "Create with Metadata",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 912.9
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:15.942664+00:00",
+      "test_name": "Info Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 924.83
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:16.821937+00:00",
+      "test_name": "Validate Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 879.27
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:17.738760+00:00",
+      "test_name": "Decode Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 916.82
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:18.737398+00:00",
+      "test_name": "Batch Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 998.64
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:19.658418+00:00",
+      "test_name": "Encode Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 921.02
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:20.750914+00:00",
+      "test_name": "Convert to HTML",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1090.48
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:21.665796+00:00",
+      "test_name": "Convert to PDF",
+      "status": "FAIL",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 914.88,
+      "error": "Exit code 1: "
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:22.577220+00:00",
+      "test_name": "Convert to PPTX",
+      "status": "FAIL",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 911.42,
+      "error": "Exit code 1: "
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:24.382909+00:00",
+      "test_name": "All Conversion Formats",
+      "status": "FAIL",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1805.69,
+      "error": "Conversion to pdf failed: "
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:25.272596+00:00",
+      "test_name": "View Command Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 888.66
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:32.029320+00:00",
+      "test_name": "All Commands Have Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 6756.72
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:34.715738+00:00",
+      "test_name": "Create Multiple Files",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 2686.42
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:39.028290+00:00",
+      "test_name": "Validate All Outputs",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 4312.55
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:39.922811+00:00",
+      "test_name": "Verbose Output",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 892.51
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:40.804705+00:00",
+      "test_name": "CLI Version Display",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 881.89
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:41.656443+00:00",
+      "test_name": "Main Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 851.74
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T04:57:42.502969+00:00",
+      "test_name": "Command Examples",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 846.53
+    }
+  ],
+  "summary": {
+    "total_metrics": 19,
+    "total_original_bytes": 0,
+    "total_compressed_bytes": 0,
+    "average_compression_ratio_percent": 0.0,
+    "total_processing_time_ms": 29330.84,
+    "error_count": 3,
+    "test_suite": "comprehensive_test_suite_ci",
+    "total_tests": 19,
+    "passed_tests": 16,
+    "failed_tests": 3,
+    "total_time_seconds": 31.297672986984253,
+    "success_rate_percent": 84.21052631578947
+  },
+  "errors": [
+    "Convert to PDF: Exit code 1: ",
+    "Convert to PPTX: Exit code 1: ",
+    "All Conversion Formats: Conversion to pdf failed: "
+  ]
+}

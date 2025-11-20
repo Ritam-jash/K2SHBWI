@@ -1,0 +1,226 @@
+================================================================================
+K2SHBWI TEST LOG REPORT
+================================================================================
+
+Timestamp: 2025-11-20T04:57:11.208166+00:00
+Logger: comprehensive_test_suite_ci
+Type: test
+
+System Information:
+  Python: 3.12.1
+  Platform: Windows 11
+
+Summary:
+  Total Metrics: 19
+  Original Bytes: 0
+  Compressed Bytes: 0
+  Average Compression: 0.00%
+  Total Time: 29330.84ms
+  Errors: 3
+
+Detailed Metrics:
+--------------------------------------------------------------------------------
+
+[1] TEST
+    Timestamp: 2025-11-20T04:57:14.104934+00:00
+    Test: Create Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 937.87ms
+    Status: PASS
+
+[2] TEST
+    Timestamp: 2025-11-20T04:57:15.017835+00:00
+    Test: Create with Metadata
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 912.90ms
+    Status: PASS
+
+[3] TEST
+    Timestamp: 2025-11-20T04:57:15.942664+00:00
+    Test: Info Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 924.83ms
+    Status: PASS
+
+[4] TEST
+    Timestamp: 2025-11-20T04:57:16.821937+00:00
+    Test: Validate Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 879.27ms
+    Status: PASS
+
+[5] TEST
+    Timestamp: 2025-11-20T04:57:17.738760+00:00
+    Test: Decode Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 916.82ms
+    Status: PASS
+
+[6] TEST
+    Timestamp: 2025-11-20T04:57:18.737398+00:00
+    Test: Batch Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 998.64ms
+    Status: PASS
+
+[7] TEST
+    Timestamp: 2025-11-20T04:57:19.658418+00:00
+    Test: Encode Command
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 921.02ms
+    Status: PASS
+
+[8] TEST
+    Timestamp: 2025-11-20T04:57:20.750914+00:00
+    Test: Convert to HTML
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1090.48ms
+    Status: PASS
+
+[9] TEST
+    Timestamp: 2025-11-20T04:57:21.665796+00:00
+    Test: Convert to PDF
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 914.88ms
+    Status: FAIL
+    ERROR: Exit code 1: 
+
+[10] TEST
+    Timestamp: 2025-11-20T04:57:22.577220+00:00
+    Test: Convert to PPTX
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 911.42ms
+    Status: FAIL
+    ERROR: Exit code 1: 
+
+[11] TEST
+    Timestamp: 2025-11-20T04:57:24.382909+00:00
+    Test: All Conversion Formats
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 1805.69ms
+    Status: FAIL
+    ERROR: Conversion to pdf failed: 
+
+[12] TEST
+    Timestamp: 2025-11-20T04:57:25.272596+00:00
+    Test: View Command Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 888.66ms
+    Status: PASS
+
+[13] TEST
+    Timestamp: 2025-11-20T04:57:32.029320+00:00
+    Test: All Commands Have Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 6756.72ms
+    Status: PASS
+
+[14] TEST
+    Timestamp: 2025-11-20T04:57:34.715738+00:00
+    Test: Create Multiple Files
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 2686.42ms
+    Status: PASS
+
+[15] TEST
+    Timestamp: 2025-11-20T04:57:39.028290+00:00
+    Test: Validate All Outputs
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 4312.55ms
+    Status: PASS
+
+[16] TEST
+    Timestamp: 2025-11-20T04:57:39.922811+00:00
+    Test: Verbose Output
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 892.51ms
+    Status: PASS
+
+[17] TEST
+    Timestamp: 2025-11-20T04:57:40.804705+00:00
+    Test: CLI Version Display
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 881.89ms
+    Status: PASS
+
+[18] TEST
+    Timestamp: 2025-11-20T04:57:41.656443+00:00
+    Test: Main Help
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 851.74ms
+    Status: PASS
+
+[19] TEST
+    Timestamp: 2025-11-20T04:57:42.502969+00:00
+    Test: Command Examples
+    Input: 0 bytes
+    Output: 0 bytes
+    Ratio: 0.00%
+    Type: N/A
+    Time: 846.53ms
+    Status: PASS
+
+================================================================================
+ERRORS:
+================================================================================
+  - Convert to PDF: Exit code 1: 
+  - Convert to PPTX: Exit code 1: 
+  - All Conversion Formats: Conversion to pdf failed: 
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -111,7 +111,7 @@ Built-in validation ensures
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/K2SHBWI.git
+git clone https://github.com/Ritam-jash/K2SHBWI.git
 cd K2SHBWI
 
 # Create virtual environment

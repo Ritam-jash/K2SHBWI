@@ -33,8 +33,8 @@ Thank you for your interest in contributing to K2SHBWI! We welcome contributions
 
 ```bash
 # Clone repository
-git clone https://github.com/k2shbwi/k2shbwi.git
-cd k2shbwi
+git clone https://github.com/Ritam-jash/K2SHBWI.git
+cd K2SHBWI
 
 # Create virtual environment
 python -m venv venv
@@ -83,9 +83,8 @@ See [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for details.
 ## Questions?
 
 - 📖 Read [`docs/05-contributing/`](docs/05-contributing/)
-- 💬 GitHub Discussions: https://github.com/k2shbwi/k2shbwi/discussions
-- 🐦 Twitter: @k2shbwi
-- 📧 Email: contribute@k2shbwi.org
+- 💬 GitHub Discussions: https://github.com/Ritam-jash/K2SHBWI/discussions
+- 🐛 GitHub Issues: https://github.com/Ritam-jash/K2SHBWI/issues
 
 ---
 

@@ -1,0 +1,227 @@
+{
+  "timestamp": "2025-11-20T05:00:46.099415+00:00",
+  "logger_name": "comprehensive_test_suite_ci",
+  "log_type": "test",
+  "system_info": {
+    "python_version": "3.12.1",
+    "platform": "Windows 11"
+  },
+  "metrics": [
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:48.245829+00:00",
+      "test_name": "Create Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1045.99
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:49.246844+00:00",
+      "test_name": "Create with Metadata",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1001.01
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:50.242278+00:00",
+      "test_name": "Info Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 994.36
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:51.177536+00:00",
+      "test_name": "Validate Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 935.26
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:52.212425+00:00",
+      "test_name": "Decode Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1034.89
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:53.275012+00:00",
+      "test_name": "Batch Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1062.59
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:54.292811+00:00",
+      "test_name": "Encode Command",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1017.8
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:55.333655+00:00",
+      "test_name": "Convert to HTML",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1040.84
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:00:56.351929+00:00",
+      "test_name": "Convert to PDF",
+      "status": "FAIL",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 1018.27,
+      "error": "PDF conversion failed: [ERROR] [Errno 2] No such file or directory: '/tmp/k2sh_temp_img.png'"
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:01.206730+00:00",
+      "test_name": "All Conversion Formats",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 3383.72
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:02.099734+00:00",
+      "test_name": "View Command Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 893.0
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:09.290080+00:00",
+      "test_name": "All Commands Have Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 7190.35
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:12.021086+00:00",
+      "test_name": "Create Multiple Files",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 2731.01
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:16.621948+00:00",
+      "test_name": "Validate All Outputs",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 4600.86
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:17.490889+00:00",
+      "test_name": "Verbose Output",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 868.94
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:18.344385+00:00",
+      "test_name": "CLI Version Display",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 853.5
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:19.174200+00:00",
+      "test_name": "Main Help",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 829.81
+    },
+    {
+      "type": "test",
+      "timestamp": "2025-11-20T05:01:20.040442+00:00",
+      "test_name": "Command Examples",
+      "status": "PASS",
+      "input_bytes": 0,
+      "output_bytes": 0,
+      "compression_ratio_percent": 0.0,
+      "compression_type": "N/A",
+      "processing_time_ms": 866.24
+    }
+  ],
+  "summary": {
+    "total_metrics": 18,
+    "total_original_bytes": 0,
+    "total_compressed_bytes": 0,
+    "average_compression_ratio_percent": 0.0,
+    "total_processing_time_ms": 31368.44,
+    "error_count": 1,
+    "test_suite": "comprehensive_test_suite_ci",
+    "total_tests": 18,
+    "passed_tests": 17,
+    "failed_tests": 1,
+    "total_time_seconds": 33.949098348617554,
+    "success_rate_percent": 94.44444444444444
+  },
+  "errors": [
+    "Convert to PDF: PDF conversion failed: [ERROR] [Errno 2] No such file or directory: '/tmp/k2sh_temp_img.png'"
+  ]
+}
