@@ -33,9 +33,24 @@ jobs:
 
       - name: Create temporary test files
         run: |
+          # Create test image
           python -c "from PIL import Image; Image.new('RGB', (50, 50)).save('test_image.png')"
+          
+          # Create batch directory
           mkdir -p batch_input
           cp test_image.png batch_input/
+          
+          # Create dummy K2SH files that tests expect
+          python -c "
+          # Create empty files for testing
+          open('test_output_click.k2sh', 'w').close()
+          open('test_p3_encode.k2sh', 'w').close() 
+          open('test_output.k2sh', 'w').close()
+          open('test_p4_convert.html', 'w').close()
+          open('test_p4_convert.pdf', 'w').close()
+          open('test_p4_convert.pptx', 'w').close()
+          print('Created all required test files')
+          "
 
       - name: Run tests
         run: python tests/comprehensive_test_suite.py
